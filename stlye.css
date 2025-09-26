@@ -1,0 +1,66 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #f4f4f4;
+  background: #0d1117;
+  text-align: center;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #111827, #1f2937);
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #22d3ee;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #e5e7eb;
+}
+
+/* Sections */
+section {
+  padding: 50px 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #22d3ee;
+}
+
+p, li {
+  max-width: 800px;
+  margin: 0 auto 15px;
+  font-size: 1.1rem;
+}
+
+/* Links */
+a {
+  color: #22d3ee;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  font-size: 0.9rem;
+  background: #111827;
+  color: #9ca3af;
+}
